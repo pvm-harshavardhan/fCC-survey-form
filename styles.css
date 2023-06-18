@@ -1,0 +1,94 @@
+*{
+    /* box-sizing: border-box; */
+}
+
+body{
+    background-image: url(https://www.odysseyis.com/wp-content/uploads/2019/06/programmer-group-computers.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+.container{
+    padding-top: 1%;
+    width: 60vw;
+    margin: auto;    
+    background-color: #7381dd;
+    border-radius: 1.5em;
+}
+header{
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
+header p{
+    font-size: 1.3rem;
+    font-family:  sans-serif;
+}
+hr{
+    width: 90%;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 70%;
+}
+label{
+    display: flex;
+}
+.form-1{
+    padding: 0 0 2% 5%;
+}
+.form-2{
+    padding: 0 0 0 5%;
+}
+.form-1 input{
+    width: 60%;
+    height: 1.5rem;;
+    height: 1.5rem;
+}
+.form-1 label{
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+}
+.form-2 p{
+    font-size: 1.3em;
+    margin: 0 0 2% 0;
+}
+.form-2 label{
+    font-size: 1.3rem;
+}
+select{
+    width: 60%;
+    height: 1.7rem;
+}
+.input-textarea{
+    width: 70%;
+    height: 3rem;
+}
+.submit-button{
+    display: inline-block;
+    width: 50%;
+    height: 6%;
+    text-align: center;
+    border: 0;
+    margin: 3% 25%;
+    background-color: green;
+}
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 80vw;
+    }
+    .form-1 p, .form-1 label, .form-2 p,.form-2 label {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: 90vw;
+    }
+    .form-1 p, .form-1 label, .form-2 p,.form-2 label {
+        font-size: 1rem;
+    }
+}
